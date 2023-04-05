@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-// Import the library
+import './tailwind.css'
 
 createApp(App).mount('#app')
