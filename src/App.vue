@@ -1,12 +1,14 @@
 <script setup>
-import navbar from './components/Navbar.vue';
+import Navbar from './components/Navbar.vue';
 import Home from './components/Home.vue';
+import Category from './components/Category.vue';
 </script>
 
 <template>
 <div class="container overflow-x-auto">
-  <navbar />
+  <Navbar />
   <Home />
+  <Category />
 </div>
 </template>
 
