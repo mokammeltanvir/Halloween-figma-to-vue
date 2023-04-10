@@ -17,12 +17,28 @@
             type="text" 
             placeholder="Enter your email address"
           />
-          <button class="h-full px-3 lg:px-6 text-sm md:text-base text-white font-bold bg-secondary rounded-r-lg">SUBSCRIBE</button>
+          <button class="h-full px-3 lg:px-6 text-sm md:text-base text-white font-bold bg-secondary hover:bg-orange-600 rounded-r-lg">SUBSCRIBE</button>
         </div>
       </form>
     </div>
     <div class="absolute right-10 bottom-10 w-1/3 hidden md:block">
-      <img src="../assets/img/about-img.webp" alt="">
+      <img class="animate-bounce" src="../assets/img/about-img.webp" alt="">
     </div>
   </div>
 </template>
+<style scoped>
+  .animate-bounce {
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+</style>

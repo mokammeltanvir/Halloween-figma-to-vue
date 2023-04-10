@@ -37,7 +37,7 @@
   </section>
   <section id="about" class="grid grid-flow-col grid-cols-1 md:grid-cols-2 md:gap-10 items-center">
     <div class="md:p-10">
-      <img src="../assets/img/category2-img.webp" alt="category2-img">
+      <img class="animate-bounce" src="../assets/img/category2-img.webp" alt="category2-img">
     </div>
     <div class="text-center flex flex-col items-center">
       <h2 class="text-5xl md:text-6xl font-bold text-white">What's that</h2>
@@ -49,3 +49,19 @@
     </div>
   </section>
 </template>
+<style scoped>
+  .animate-bounce {
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  </style>

@@ -9,7 +9,7 @@
       <div 
         v-for="(tot, i) of tots" 
         :key="tot.title" 
-        class="grid place-items-center text-center gap-5 p-8 rounded-md text-white bg-gradient-to-b from-primary-200/20 to-primary-200/10 hover:-translate-y-10 transition-all duration-300 ease-in-out cursor-pointer hover:from-primary-200/50 hover:to-primary-200/30"        
+        class="grid place-items-center text-center gap-5 p-8 rounded-md text-white bg-gradient-to-b from-primary-200/20 to-primary-200/10 lg:hover:-translate-y-10 transition duration-500 ease-in-out cursor-pointer hover:from-primary-200/50 hover:to-primary-200/30"        
       >
         <div>
           <img :src="tot.image" alt="">
