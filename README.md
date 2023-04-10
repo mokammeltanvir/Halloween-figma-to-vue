@@ -1,6 +1,10 @@
 # Halloweend-figma-to-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a Figma to Vue.js conversion project that aims to convert a Figma design file into a functional Vue.js application.
+
+## Figma Design File
+Here [Figma Design](https://www.figma.com/file/Lvg9t20A4JrmrX8lK0edL1/Web-Desing-%7C-Halloween?node-id=0%3A1&t=5LoZYW854aEQPp5p-1)
+
 
 ## Recommended IDE Setup
 
@@ -21,9 +25,13 @@ npm install
 ```sh
 npm run dev
 ```
+### Open your browser and navigate to http://localhost:8080 to see the Vue.js application.
 
 ### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
+## Authors
+
+- [@mokammeltanvir](https://www.github.com/mokammeltanvir)
