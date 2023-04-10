@@ -2,6 +2,7 @@
 import Navbar from './components/Navbar.vue';
 import Home from './components/Home.vue';
 import Category from './components/Category.vue';
+import TrickOrTreat from './components/TrickOrTreat.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Category from './components/Category.vue';
   <Navbar />
   <Home />
   <Category />
+  <TrickOrTreat />
 </div>
 </template>
 
