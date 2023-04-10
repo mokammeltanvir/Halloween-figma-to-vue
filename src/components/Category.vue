@@ -35,7 +35,7 @@
       </div>
     </div>
   </section>
-  <section class="grid grid-flow-col grid-cols-1 md:grid-cols-2 md:gap-10 items-center">
+  <section id="about" class="grid grid-flow-col grid-cols-1 md:grid-cols-2 md:gap-10 items-center">
     <div class="md:p-10">
       <img src="../assets/img/category2-img.webp" alt="category2-img">
     </div>
