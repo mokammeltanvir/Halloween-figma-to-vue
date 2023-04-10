@@ -28,7 +28,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 place-items-center">
       <div v-for="category of categories" :key="category.title" class="text-white grid place-items-center gap-5 text-center">
         <div class="p-10">
-          <img :src="category.image" class="w-full" alt="category1">
+          <img :src="category.image" class="animate-bounce w-full" alt="category1">
         </div>
         <h3 class="text-3xl font-bold">{{ category.title }}</h3>
         <p class="w-3/4">{{ category.desc}}</p>
